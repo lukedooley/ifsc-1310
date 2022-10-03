@@ -1,0 +1,17 @@
+body{
+    background-color:red;
+}
+/* This is a comment */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /* This is global styles*/
+
+  body{
+    
