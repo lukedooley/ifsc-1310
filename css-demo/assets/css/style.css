@@ -1,6 +1,4 @@
-body{
-    background-color:red;
-}
+
 /* This is a comment */
 
 html {
@@ -13,5 +11,18 @@ html {
   }
   /* This is global styles*/
 
-  body{
+  /* this is for media query*/
+  @media screen and (max-width:500px){
+    header.primary nav ul{
+      flex-direction:column;
+    }
+      header.primary nav ul{
+        margin-bottom:10px;
+      }
+  }
+  /* These are utility classes*/
+  .container{
+    max-width:960px;
+    width:80vw;
+    margin:40px auto;
     
